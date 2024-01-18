@@ -1,5 +1,12 @@
 package PageLayer;
 
-public class SuccessPage {
+import BaseLayer.BaseClass;
+
+public class SuccessPage extends BaseClass{
+	
+	public void successPageFunctionality()
+	{
+		System.out.println("successPageFunctionality");
+	}
 
 }
