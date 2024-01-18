@@ -1,5 +1,13 @@
 package PageLayer;
 
-public class AddToCartPage {
+import BaseLayer.BaseClass;
+
+public class AddToCartPage extends BaseClass{
+	
+	public void AddToCartPageFunctionality()
+	{
+		System.out.println("AddToCartPageFunctionality");
+	}
+
 
 }
